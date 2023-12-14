@@ -11,7 +11,7 @@ export default function Card(props) {
       <div className="card-container-content">
         <img
           className="card-container-location-img"
-          src="./public/img/location.png"
+          src="/img/location.png"
           alt="location-img"
         />
         <span className="card-container-location">{props.item.location}</span>
